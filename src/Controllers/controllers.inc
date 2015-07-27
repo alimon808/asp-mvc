@@ -1,2 +1,2 @@
-<!--#include file="HomeController.asp" -->
-<!--#include file="UserController.asp" -->
+<!--#include virtual="Controllers/HomeController.asp" -->
+<!--#include virtual="Controllers/UserController.asp" -->

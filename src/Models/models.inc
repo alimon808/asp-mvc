@@ -1,2 +1,2 @@
-<!--#include file="User.asp" -->
+<!--#include virtual="Models/User.asp" -->
 

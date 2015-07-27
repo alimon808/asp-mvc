@@ -1,4 +1,4 @@
-<!--#include file="misc.inc" -->
-<!--#include file="html.inc" -->
-<!--#include file="db.inc" -->
-<!--#include file="connectionString.inc" -->
+<!--#include virtual="utils/misc.inc" -->
+<!--#include virtual="utils/html.inc" -->
+<!--#include virtual="utils/db.inc" -->
+<!--#include virtual="utils/connectionString.inc" -->

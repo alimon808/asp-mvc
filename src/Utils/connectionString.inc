@@ -1,3 +1,3 @@
 <%
-Const connectionString = "Provider=SQLNCLI; Data Source=localhost; Initial Catalog=test; User ID = xx; Password = xxxxxx;"
+Const connectionString = "Provider=SQLNCLI; Data Source=phoenix/named1; Initial Catalog=demo; User ID = demouser; Password = p1ssword;"
 %>

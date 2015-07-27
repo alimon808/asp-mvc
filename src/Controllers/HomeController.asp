@@ -12,7 +12,7 @@ class HomeController
  
  public Sub Index()
     Model = "dude"
-     %>   <!--#include file="../views/Home/Index.asp" --> <%
+     %>   <!--#include virtual="/views/Home/Index.asp" --> <%
  End Sub
  
  public Sub About()
@@ -22,7 +22,7 @@ class HomeController
         Session("sessionCounter") = Session("sessionCounter") + 1
     End If
     Model = Session("sessionCounter")
-    %>   <!--#include file="../views/Home/About.asp" --> <%
+    %>   <!--#include virtual="/views/Home/About.asp" --> <%
  End Sub
  
  Public Sub AbandonSession()

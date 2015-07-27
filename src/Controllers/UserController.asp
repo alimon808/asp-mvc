@@ -16,12 +16,12 @@ class UserController
     set u = new UserHelper
     set Model = u.SelectAll
  
-    %>   <!--#include file="../views/User/List.asp" --> <%
+    %>   <!--#include virtual="/views/User/List.asp" --> <%
  End Sub
  
  public Sub Create()
     set Model = new User
-    %>   <!--#include file="../views/User/Create.asp" --> <%
+    %>   <!--#include virtual="/views/User/Create.asp" --> <%
  End Sub
  
   public Sub CreatePost(args)
@@ -47,7 +47,7 @@ class UserController
     set u = new UserHelper
     set Model = u.SelectById(vars("id"))
  
-   %>   <!--#include file="../views/User/Edit.asp" --> <%
+   %>   <!--#include virtual="/views/User/Edit.asp" --> <%
  End Sub
  
  public Sub EditPost(args)
@@ -71,7 +71,7 @@ class UserController
      Dim u
     set u = new UserHelper
     set Model = u.SelectById(vars("id"))
-   %>   <!--#include file="../views/User/Delete.asp" --> <%
+   %>   <!--#include virtual="/views/User/Delete.asp" --> <%
  End Sub
  
  
@@ -92,7 +92,7 @@ class UserController
     set u = new UserHelper
     set Model = u.SelectById(vars("id"))
 
-   %>   <!--#include file="../views/User/Details.asp" --> <%
+   %>   <!--#include virtual="/views/User/Details.asp" --> <%
  End Sub
  
  End Class
