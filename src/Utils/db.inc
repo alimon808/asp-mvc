@@ -8,7 +8,7 @@ public function DbOpenConnection()
    if oConn is nothing then
       set oConn = CreateObject("ADODB.Connection")
       oConn.Mode = 3
-      oConn.ConnectionString = connectionString
+      oConn.ConnectionString = Application("connectionString")
       oConn.Open
    end if
    set DbOpenConnection = oConn

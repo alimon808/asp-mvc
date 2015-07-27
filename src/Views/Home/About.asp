@@ -18,7 +18,7 @@ Here is the link to one of the "standard" UserConteroller, which works with the 
 In order to use the UserController you need to set up the MS SQL database;</br>
  Create table <strong>User</strong> in the database.</br>
  Create fields (refer the <strong>User</strong> model in this solution</br>
- Create connection string and save it in the /utils/connectionString.inc </br>
+ Create connection string and save it in the global.asa </br>
 </div>
 
 <script language="javascript">
