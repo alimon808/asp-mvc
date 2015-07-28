@@ -1,6 +1,6 @@
-<!--#include virtual="utils/utils.inc" -->
-<!--#include virtual="models/models.inc" -->
-<!--#include virtual="controllers/controllers.inc" -->
+<!--#include virtual="/utils/utils.asp" -->
+<!--#include virtual="/models/models.asp" -->
+<!--#include virtual="/controllers/controllers.asp" -->
 <%
 Const defaultController = "Home"
 Const defaultAction = "Index"

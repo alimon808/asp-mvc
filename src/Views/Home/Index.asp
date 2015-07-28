@@ -1,3 +1,5 @@
+<!-- #include virtual="/views/view.asp" -->
+<h1>Classic ASP using MVC Pattern</h1>
 This is an INDEX page
 <br />
 <%=Html.ActionLink("Index", "Home", "Index" , "") %>
@@ -8,4 +10,4 @@ This is an INDEX page
 <br />
 <br />
 Hello
-<%=Html.Encode(Model)%>
+<%=Html.Encode(viewData.Item("name"))%>

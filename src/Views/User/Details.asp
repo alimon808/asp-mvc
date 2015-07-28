@@ -1,3 +1,4 @@
+<!-- #include virtual="/views/view.asp" -->
 Details on User
 
 <table>

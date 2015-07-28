@@ -1,7 +1,7 @@
-Create database test
+Create database demo
 GO
 
-Use test
+Use demo
 
 -- User --------------
 CREATE TABLE [User]
@@ -19,22 +19,19 @@ CREATE TABLE [User]
 ) ON [PRIMARY]
 GO
 
-
-
-
 -- User --------------
 
 Insert into [User]
 (FirstName , LastName , UserName , ProjectID )
 Values 
-('Bhaskara','Ramachandra','BRamachandra',1)
+('Adrian','Limon','alimon',1)
 GO
 
 
 Insert into [User]
 (FirstName , LastName , UserName , ProjectID )
 Values 
-('Padmavati','Pitambara','PPitambara',1)
+('Araceli','Limon-Hunt','ahunt',1)
 GO
 
 
@@ -42,5 +39,5 @@ GO
 Insert into [User]
 (FirstName , LastName , UserName , ProjectID )
 Values 
-('Rundhati','Shripati','RShripati',1)
+('Brigida','Thompson','bthompson',1)
 GO

@@ -1,3 +1,4 @@
+<!-- #include virtual="/views/view.asp" -->
 This is an ABOUT page
 <br />
 <%=Html.ActionLink("Index", "Home", "Index" , "") %>
@@ -8,7 +9,7 @@ This is an ABOUT page
 <br />
 <br />
 
-The <strong>About</strong> Page was visited <%=Html.Encode(Model) %> times </br>
+The <strong>About</strong> Page was visited <%=Html.Encode(viewData.Item("sessionCounter")) %> times </br>
 
 Here is the link to one of the "standard" UserConteroller, which works with the database.
 <%=Html.ActionLink("List Users", "User", "List" , "") %> (

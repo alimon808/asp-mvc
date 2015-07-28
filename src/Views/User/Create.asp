@@ -1,3 +1,4 @@
+<!-- #include virtual="/views/view.asp" -->
 Cleate User
 
 <form action="?controller=User&action=CreatePost" id="CreatePost" method="post">
