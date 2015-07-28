@@ -1,4 +1,4 @@
-<!-- #include virtual="/views/view.asp" -->
+<!-- #include virtual="aspmvc/views/view.asp" -->
 List Users
 <%=Html.ActionLink("Create new User", "User", "Create" , "") %> <br/>
 <table>

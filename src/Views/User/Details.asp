@@ -1,4 +1,4 @@
-<!-- #include virtual="/views/view.asp" -->
+<!-- #include virtual="aspmvc/views/view.asp" -->
 Details on User
 
 <table>

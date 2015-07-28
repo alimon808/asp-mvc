@@ -1,4 +1,4 @@
-<!-- #include virtual="/views/view.asp" -->
+<!-- #include virtual="aspmvc/views/view.asp" -->
 Delete User
 
 <form action="?controller=User&action=DeletePost" id="DeletePost" method="post">

@@ -1,5 +1,4 @@
 class UserController
- Dim Model
  Dim ViewData
   
  private sub Class_Initialize()
@@ -32,8 +31,7 @@ class UserController
     'form values should be cleaned from injections
     'checkboxes shoud use the syntax: obj.ProjectID = (args("ProjectID") = "on")
     obj.Id = objh.Insert(obj)
- 
-    Response.Redirect("?controller=User&action=list")
+    List()
  End Sub
 
  
@@ -53,7 +51,7 @@ class UserController
     'form values should be cleaned from injections
     'checkboxes shoud use the syntax: obj.ProjectID = (args("ProjectID") = "on")
     objh.Update(obj)
-    Response.Redirect("?controller=User&action=list")
+    List()
  End Sub
 
  
@@ -68,8 +66,8 @@ class UserController
     Dim res, objh
     set objh = new UserHelper
     res = objh.Delete(args("id"))
-    if  res then
-        Response.Redirect("?controller=User&action=list")
+    if res then
+        List()
     else
         Response.Redirect("?controller=User&action=Delete&id=" + CStr(args("id")))
     end if
@@ -82,7 +80,7 @@ class UserController
     End Sub
 
     Private Sub View(action)
-        Dim vw : vw = "/views/user/" & action & ".asp"
+        Dim vw : vw = "/aspmvc/views/user/" & action & ".asp"
         Set Session("viewData") = ViewData
         Server.Transfer(vw)
     End Sub 

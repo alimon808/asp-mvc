@@ -30,7 +30,7 @@ class HomeController
  End Sub
 
  Private Sub View(action)
-  Dim vw : vw = "/views/home/" & action & ".asp"
+  Dim vw : vw = "/aspmvc/views/home/" & action & ".asp"
   Set Session("viewData") = ViewData
   Server.Transfer(vw)
  End Sub

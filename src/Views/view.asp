@@ -1,5 +1,5 @@
-<!--#include virtual="/utils/utils.asp" -->
-<!--#include virtual="/models/models.asp" -->
+<!--#include virtual="/aspmvc/utils/utils.asp" -->
+<!--#include virtual="/aspmvc/models/models.asp" -->
 <%
 Dim viewData : Set viewData = Session("viewData")
 Session.Contents.Remove("viewData")

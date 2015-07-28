@@ -1,4 +1,4 @@
-<!-- #include virtual="/views/view.asp" -->
+<!-- #include virtual="aspmvc/views/view.asp" -->
 <h1>Classic ASP using MVC Pattern</h1>
 This is an INDEX page
 <br />

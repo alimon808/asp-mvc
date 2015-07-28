@@ -1,4 +1,4 @@
-<!-- #include virtual="/views/view.asp" -->
+<!-- #include virtual="aspmvc/views/view.asp" -->
 Edit User
 
 <form action="?controller=User&action=EditPost" id="EditPost" method="post">

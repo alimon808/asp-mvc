@@ -1,4 +1,4 @@
-<!-- #include virtual="/views/view.asp" -->
+<!-- #include virtual="aspmvc/views/view.asp" -->
 This is an ABOUT page
 <br />
 <%=Html.ActionLink("Index", "Home", "Index" , "") %>
