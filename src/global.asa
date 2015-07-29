@@ -1,6 +1,5 @@
 <script language="vbscript" runat="server">
 Sub Application_OnStart
 	Application("connectionString") = "DRIVER={SQL Server};SERVER=phoenix\named1;UID=demouser;PWD=p1ssword;DATABASE=demo"
-	Application("root") = empty
 End Sub
 </script>

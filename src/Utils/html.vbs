@@ -71,8 +71,7 @@ class cHTMLHelper
 		else
 			checked = ""
 		end If
-		TextArea = "<input type='checkbox' id='" + elID + "' name='" + elID + "' " + checked + " />" 
-		Encode(elValue) 
+		CheckBox = "<input type='checkbox' id='" + elID + "' name='" + elID + "' " + checked + " />" 
 	End Function
 
 	Public Sub RenderControllerAction(controller,action,vars)

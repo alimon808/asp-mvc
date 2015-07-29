@@ -6,6 +6,10 @@ This is an INDEX page
 <br />
 <%=Html.ActionLink("About", "Home", "About" , "") %>
 <br />
+<%=Html.ActionLink("Users", "User", "List" , "") %>
+<br />
+<%=Html.ActionLink("Projects", "Project", "List" , "") %>
+<br />
 <%=Html.ActionLink("Abandon session", "Home", "AbandonSession" , "") %>
 <br />
 <br />

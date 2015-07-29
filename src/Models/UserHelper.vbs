@@ -1,5 +1,4 @@
-class UserHelper
-
+Class UserHelper
   Dim selectSQL
 
   private sub Class_Initialize()
